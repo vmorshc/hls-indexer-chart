@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/vmorshc/hls-indexer
   # Template value. The CI of vmorshc/hls-indexer replaces it with the released version.
-  tag: latest
+  tag: "0.1.2"
   pullPolicy: IfNotPresent
 
 # The GHCR package is private: pull secret ghcr-pull is created in the cluster by hand.
